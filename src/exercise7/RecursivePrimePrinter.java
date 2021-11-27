@@ -19,7 +19,6 @@ public class RecursivePrimePrinter {
             System.out.println(i);
           }
         }
-        
     }
 
     public static boolean isPrime(int n) {
