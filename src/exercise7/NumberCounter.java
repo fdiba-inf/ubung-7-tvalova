@@ -20,6 +20,11 @@ public class NumberCounter {
         int number = input.nextInt();
 
         int numberOccurrences = 0; // Call method
+        for (int j = 0; j < numbers.length; j++) {
+          if (numbers[j] == number) {
+            numberOccurrences++;
+          }
+        }
         System.out.println("Number occurrences: " + numberOccurrences);
     }
 
