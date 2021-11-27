@@ -14,6 +14,7 @@ public class RecursivePrimePrinter {
 
     public static void printPrimes(int n) {
         // Implement recursive method
+        
     }
 
     public static boolean isPrime(int n) {
